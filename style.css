@@ -1,0 +1,213 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    font-family: "Poppins", sans-serif;
+}
+
+#main {
+
+    min-height: 100vh;
+    background-color: #E5E5Ff;
+    border: 10px solid #1D1E4C;
+}
+
+#top-section {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: bolder;
+    color: #1D1E4C;
+    text-transform: uppercase;
+
+
+}
+
+h4 {
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: end;
+    padding: 8px;
+}
+
+#content {
+    max-width: 750px;
+    margin: 10% auto;
+}
+
+#image-div,
+img {
+
+    height: 280px;
+    width: 260px;
+    border-radius: 60%;
+}
+
+#about_section {
+    margin-top: 50px;
+}
+
+#about_section h2 {
+    font-size: 38px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+#about_section p {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    margin-top: 20px;
+    letter-spacing: 1.1px;
+    color: #008080;
+    text-align: justify;
+}
+
+.bio {
+    margin: 40px 0;
+    font-size: 18px;
+
+}
+
+.bullet_points {
+    font-size: 17px;
+    font-weight: 500;
+    color: #008080;
+    line-height: 30px;
+    letter-spacing: 1.1px;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+ul {
+    margin-left: 50px;
+}
+
+footer h5 {
+    margin-top: 80px;
+    text-align: end;
+}
+
+a {
+    color: royalblue;
+    text-decoration: none;
+    transition: color 0.2s, text-decoration 0.2s;
+}
+
+a:visited {
+    color: royalblue;
+}
+
+a:hover {
+
+    color: #FF5733;
+    text-decoration: underline;
+}
+
+/* Media Queries */
+
+/* Tablet (Portrait) */
+@media (max-width: 768px) {
+    #top-section {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+    }
+
+    #image-div,
+    img {
+        height: 200px;
+        width: 200px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h4 {
+        font-size: 12px;
+    }
+
+    #about_section h2 {
+        font-size: 30px;
+    }
+
+    #about_section p {
+        font-size: 18px;
+    }
+
+    .bio {
+        font-size: 16px;
+    }
+
+    .bullet_points {
+        font-size: 15px;
+    }
+
+    ul {
+        margin-left: 30px;
+    }
+
+    footer h5 {
+        margin-top: 50px;
+        text-align: center;
+    }
+}
+
+/* Mobile (Portrait) */
+@media (max-width: 480px) {
+    #top-section {
+        margin-top: 30px;
+    }
+
+    #image-div,
+    img {
+        height: 150px;
+        width: 150px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h4 {
+        font-size: 10px;
+    }
+
+    #about_section h2 {
+        font-size: 24px;
+    }
+
+    #about_section p {
+        font-size: 16px;
+    }
+
+    .bio {
+        font-size: 14px;
+    }
+
+    .bullet_points {
+        font-size: 14px;
+    }
+
+    ul {
+        margin-left: 20px;
+    }
+
+    footer h5 {
+        margin-top: 30px;
+        text-align: center;
+    }
+}
